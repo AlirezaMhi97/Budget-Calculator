@@ -1,0 +1,111 @@
+
+header{
+    background-image: url(./photo_2021-06-21_02-44-54.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.availableBudget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+    
+}
+.availableBudget p {
+    color:white;
+    font-size: 20px;
+}
+.availableBudget h1 {
+    color: white;
+    font-size: 50px;
+}
+.label {
+    display: block;
+    text-align: center;
+    
+}
+
+.cal {
+    border-top:solid 1px #e7e7e7;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.cal p {
+    font-size: 22px;
+}
+.availableBudgetDark h1{
+    color:#f7f7f7;
+}
+.availableBudgetDark p {
+    color:#f7f7f7;
+}
+.calDark {
+    border-top:solid 1px #e7e7e7;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #333;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+
+.dark-mode{
+    background-color: #333;
+    color:#e2e2e2;
+}
+
+.dark-mode h2{
+    color:#e2e2e2;
+}
+.dark-mode a{
+    color: #5aaacf;
+}
+
+#myListIn li {
+    list-style: none;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 50%;
+    
+    
+}
+
+#myListOt li {
+    list-style: none;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 50%;
+    
+    
+}
+.myListDark{
+    
+    color:rgb(101, 78, 231);
+}
+.dabt{
+    font-size: 20px;
+    background-color: rgb(228, 224, 8);
+    border:none;
+    color: #333;
+}
+
+.dark{
+    background-color:#333;
+    border:none;
+    color: #e2e2e2;
+}
